@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.iiemyewrs.www.technica.activities.Events$PlaceholderFragment">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/events_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33000000"
+        android:divider="@color/white"
+        android:dividerHeight="1px"
+        android:layout_marginBottom="62dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Data to Display\n\nPlease connect to Internet and Try Again"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/listview_events_empty"
+        android:padding="16dp"
+        android:textColor="@color/textColorWhite"
+        android:textSize="22dp"/>
+</FrameLayout>
+
+</RelativeLayout>

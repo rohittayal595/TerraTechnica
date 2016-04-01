@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Terra Technica\'16</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="tech_name">National Institute of Technology, Delhi</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="name">Name</string>
+    <string name="number">Mobile Number</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="action_image_save">Save</string>
+    <string name="action_image_share">Share</string>
+
+    <string name="title_activity_insta_feed">#TerraTechnica</string>
+    <string name="title_circle_activity">Terra Technica 16</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="gcm_defaultSenderId"><!--A valid GCM Sender ID here--></string>
+    <string name="title_activity_events">Events</string>
+    <string name="action_refresh">Refresh</string>
+</resources>
